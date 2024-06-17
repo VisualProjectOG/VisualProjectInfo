@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(VisualBanner.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    float: center;
+    height: 70px;
+}
+
+.logo{
+    color: red;
+    font-size: 55px;
+    word-spacing: 5px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 57px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+ul li a:active{
+    color: rgb(255, 70, 70)
+}
+
+.text{
+    width: 350px;
+    padding-top: 145px;
+    background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(VisualBanner.png);
+    color: white;
+    font-size: bolder;
+    text-shadow: 2px 2px 5px red;
+    
+}
