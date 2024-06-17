@@ -4,7 +4,8 @@
 }
 
 .main{
-    width: 100%;
+    width: auto;
+    height: auto;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(VisualBanner.png);
     background-position: center;
     background-size: cover;
